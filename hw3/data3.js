@@ -1,0 +1,51 @@
+let evaluation_ratio_1=[
+    {
+        "name":"阿美語",
+        "count":46
+    },
+    {
+        "name":"泰雅語",
+        "count":20
+    },
+    {
+        "name":"排灣語",
+        "count":18
+    },
+    {
+        "name":"卑南語",
+        "count":16
+    }
+]
+let evaluation_ratio_2=[
+    {
+        "name":"薩奇萊雅",
+        "count":33.5
+    },
+    {
+        "name":"少數原住民",
+        "count":33.5
+    },
+    {
+        "name":"布農語",
+        "count":33
+    },
+
+]
+let evaluation_ratio_3=[
+    {
+        "name":"魯凱語",
+        "count":31
+    },    
+    {
+        "name":"太魯閣語",
+        "count":31
+    },    
+    {
+        "name":"德固達雅語",
+        "count":30
+    },
+    {
+        "name":"賽夏語",
+        "count":8
+    }
+]

@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <title>Web Fundamentals Workshop</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+ </head>
+ <body class="is-preload">
+
+  <!-- Wrapper-->
+   <div id="wrapper">
+
+    <!-- Nav -->
+     <nav id="nav">
+      <a href="#" class="icon solid fa-home"><span>Home</span></a>
+      <a href="#work1" class="icon solid fa-folder"><span>Work1</span></a>
+      <a href="#work2" class="icon solid fa-folder"><span>Work2</span></a>
+      <a href="#work3" class="icon solid fa-folder"><span>Work3</span></a>
+     </nav>
+
+    <!-- Main -->
+     <div id="main">
+
+      <!-- Me -->
+      <article id="home" class="panel intro">
+        <header>
+         <h1>112502001 吳若慈</h1>
+         <p>Data Viz - 1121
+         </p>
+        </header>
+        <a href="#work1" class="jumplink pic">
+         <span class="arrow icon solid fa-chevron-right"><span>See my work1</span></span>
+         <img src="images/me.jpg" alt="" />
+        </a>
+       </article>
+
+      <!-- Work -->
+       <article id="work1" class="panel">
+        <header>
+         <h2>Bar</h2>
+        </header>
+        <p>
+          我使用長條圖來分析歐洲國家的難民數量，之所以使用長條圖是為了比較不同項目，並且由於不需要看趨勢，而不使用折線圖。原始數據有需多個國家，但最後我列出了四個最具有代表性的。
+          分別為法國、德國、列支敦斯登與西班牙。選擇法國、德國與西班牙是因為在數據中他們是收容難民數量的前三名，最後一名則是列支敦斯登。
+         </p>
+         <p>
+           一開始我不能理解西班牙為何收容難民的數量僅次德國，因為它並非我印象中的歐洲強國，但是透過地圖我發現其地理位置處於歐洲與非洲之間的交界處，
+           這使得它成為非洲和中東難民進入歐洲的一個主要入口。
+         </p>
+         <P>
+           德國收容的難民數量達到第一也使我感到十分驚訝，畢竟德國很難說是歐洲第一強大的國家，我認為是其民族性造就了此結果。
+         </P>
+         <p>
+           列支敦斯登雖然富有，但是國土十分稀少，並且純勞動的工作只占全部的2%，因此收容難民人數是歐洲最低。
+         </p> 
+        <section>
+         <div id="myGraph1"></div>
+        </section>
+       </article>
+
+       <article id="work2" class="panel">
+        <header>
+         <h2>Line & Scatter</h2>
+        </header>
+        <p>
+          我使用折線圖來分析美國1973-2022的薪水變化，之所以使用折線圖是因為此項數據可以觀察時間與薪水兩種變數的關聯性，透過折線圖可看出其成長與衰退。
+          除此之外，我還利用了動態效果，使我們可以透過肉眼更直觀地看到數據的變化，如果教授您沒有看到，可以重新載入以看其動態效果。
+          </p>
+          <p>
+            原始數據有許多筆不同的分類，白人、黑人、年齡分布等等...最後我選擇了四種，分別為平均、中位數、男性平均與女性平均，之所以選擇平均與中位數
+            是可以透過其觀察極大極小值造成的影響，平均值高於中位數代表極大值影響極大，社會貧富分布不均，我原先以為1970-1990會貧富差距更大，但透過圖表我發現2022
+            年的平均值與中位數差距才是最大的，近年來貧富差距有更明顯的趨勢。
+          </p>
+          <p>
+            除上述所述，我之所以選用男性平均與女性平均，是為了透過男女薪水之差距觀察薪資方面的性別平權，由圖可見，男性薪水仍然比女性高，但女性平均薪資成長幅度比男性還要高
+            ，由此可見性別平權使近代女性薪資獲得重視，在薪水上逐漸趨近於男性。
+          </p>
+        <section>
+         <div id="myGraph2"></div>
+        </section>
+       </article>
+
+       <article id="work3" class="panel">
+        <header>
+         <h2>Pie</h2>
+        </header>
+        <p>
+          我使用圓餅圖來進行原住民語分布村落比對，三種圖所選原住民語根據分布村落多寡進行比較，之所以選用圓餅圖是為了更直觀性地比較比例上的分布，與此同時可以看到同個項目中，不同分支的比例分配。
+          左上方的圓餅圖中的原住民分布人數是其餘的數倍，因此將此四種語言放入此圖進行比對，此外
+          我們還能看到第二張圖有個少數原住民的標籤，此數種原住民由於樣本數極少，因此數十種被我歸納為一種，以進行比對。
+         </p>
+         <p>
+           我們先從左上方的圖進行講解，阿美族語分布的村落數最多，並且其占比也是所有中最多的，而卑南語在四族裡面分布最低，但與全部作為比較分布則會第四多。
+         </p>
+         <P>
+           接著看到右邊的圓餅圖，這邊只採用三組數據，因為此三組正好由多至少，順序皆在前面四組後，並且分布十分平均，呈現幾乎為三等份的狀態。
+           少數原住民的部分代表分布村落樣本數極低導致無法與其他原住民語言比較的原住民語。
+         </P>
+         <p>
+           左下方是最後四組原住民語，魯凱語跟太魯閣語並列第一，賽夏語則位居最後。
+         </p>
+ 
+        <section>
+         <div id="myGraph3"></div>
+        </section>        
+       </article>
+
+     </div>
+
+    <!-- Footer -->
+     <div id="footer">
+      <ul class="copyright">
+       <li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+      </ul>
+     </div>
+
+   </div>
+
+  <!-- Scripts -->
+   <script src="assets/js/jquery.min.js"></script>
+   <script src="assets/js/browser.min.js"></script>
+   <script src="assets/js/breakpoints.min.js"></script>
+   <script src="assets/js/util.js"></script>
+   <script src="assets/js/main.js"></script>
+   <script src="https://cdn.plot.ly/plotly-2.24.1.min.js"></script>
+   <script src="hw1/data.js"></script>
+   <script src="hw1/main.js"></script>
+   <script src="hw2/data2.js"></script>
+   <script src="hw2/main2.js"></script>
+   <script src="hw3/data3.js"></script>
+   <script src="hw3/main3.js"></script>
+ </body>
+</html>
